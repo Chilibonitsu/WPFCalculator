@@ -1,0 +1,70 @@
+﻿<Window x:Class="WPFCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="450">
+    <Grid Background="#F8FCFF" Name="GroupButton">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox Name="text" Grid.Row="0" Grid.ColumnSpan="4" FontSize="36" FontFamily="Verdana" VerticalAlignment="Center" HorizontalAlignment="Right" Foreground="Black" BorderBrush="{x:Null}" />
+        <Button Grid.Row="1" Grid.Column="0" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">(
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">)
+        </Button>
+        <Button Grid.Row="1" Grid.Column="2" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">C
+        </Button>
+        <Button Grid.Row="1" Grid.Column="3" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">x
+        </Button>
+        <Button Grid.Row="2" Grid.Column="0" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">1
+        </Button>
+        <Button Grid.Row="2" Grid.Column="1" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">2
+        </Button>
+        <Button Grid.Row="2" Grid.Column="2" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">3
+        </Button>
+        <Button Grid.Row="2" Grid.Column="3" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">+
+        </Button>
+        <Button Grid.Row="3" Grid.Column="0" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">4
+        </Button>
+        <Button Grid.Row="3" Grid.Column="1" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">5
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">6
+        </Button>
+        <Button Grid.Row="3" Grid.Column="3" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">-
+        </Button>
+        <Button Grid.Row="4" Grid.Column="0" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">7
+        </Button>
+        <Button Grid.Row="4" Grid.Column="1" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">8
+        </Button>
+        <Button Grid.Row="4" Grid.Column="2" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">9
+        </Button>
+        <Button Grid.Row="4" Grid.Column="3" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">*
+        </Button>
+        <Button Grid.Row="5" Grid.Column="0" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">.
+        </Button>
+        <Button Grid.Row="5" Grid.Column="1" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">0
+        </Button>
+        <Button Grid.Row="5" Grid.Column="2" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">=
+        </Button>
+        <Button Grid.Row="5" Grid.Column="3" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">/
+        </Button>
+        <Button Grid.Row="6" Grid.Column="3" Background="#c1d3fe" FontSize="24" Margin="-3,0,0,0" Padding="20,1,20,1" FontFamily="Verdana">About
+        </Button>
+    </Grid>
+</Window>
